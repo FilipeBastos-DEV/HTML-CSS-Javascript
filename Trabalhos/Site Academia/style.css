@@ -43,6 +43,7 @@ header{
     font-size: 1.0rem;
     letter-spacing: 0.4rem;
     cursor: pointer;
+    padding: 0.8rem;
 }
 
 .menu-content .list-itens{
@@ -149,3 +150,90 @@ main{
 .btns button:hover::before{
     width: 100%;
  }
+
+ /*Pagina de Contato*/
+ .contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background-color: black;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ }
+
+ .contato h2{
+    color: white;
+    font-size: 2.5rem;
+    margin: 2rem;
+ }
+
+ .contato form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ }
+
+ .contato form label{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 4px;
+ }
+
+.contato form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+.contato form input:focus{
+    border-radius: 16px;
+}
+ 
+.contato form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+.contato form textarea:focus{
+    border-radius: 15px;
+}
+
+.contato form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid;
+    color: white;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+
+/*Tela De Obrigado*/
+.obrigado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+} 
+
+.obrigado h1{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.obrigado p{
+    color: white;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
