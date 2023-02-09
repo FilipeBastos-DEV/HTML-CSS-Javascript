@@ -40,11 +40,14 @@ header{
 }
 
 .logo{
-    font-size: 1.0rem;
+    font-size: 0.6rem;
     letter-spacing: 0.4rem;
     cursor: pointer;
     padding: 0.8rem;
+    text-decoration: none;
+    color: white;
 }
+
 
 .menu-content .list-itens{
     display: flex;
@@ -236,4 +239,113 @@ main{
     color: white;
     margin-bottom: 50px;
     text-transform: uppercase;
+}
+
+/*Horarios*/
+
+.horarios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background-color: black;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+} 
+
+.horarios h2{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.horarios form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ }
+
+.horarios form label{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 10px;
+ }
+
+
+/*Planos*/
+
+.planos{
+    width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+
+.conteudo-planos{
+    width: 30%;
+    background: rgb(47, 47, 47);
+    border-radius: 30px;
+    margin: 5px;
+    float: left;
+    margin-top: 8%;
+    text-align: center;
+}
+
+.preço{
+    width: 120px;
+    height: 120px;
+    margin: 5%auto 0 auto;
+    text-align: center;
+}
+
+.detalhes{
+    margin-top: -50px;
+}
+
+.conteudo-planos h1{
+    font-size: 30px;
+    color: white;
+    line-height: 5;
+    text-transform: uppercase;
+    margin-bottom: -50px;
+}
+
+.preço h2{
+    font-size: 40px;
+    color: white;
+}
+
+.detalhes h4{
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    margin: 4%;
+}
+
+.detalhes h5{
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    margin: 4%;
+    text-decoration: line-through;
+}
+
+.conteudo-planos a{
+    text-decoration: none;
+    border-radius: 5px;
+    border: 5px solid white;
+    color: white;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.conteudo-planos a:hover{
+    border: 5px solid black;
+    background: white;
+    color: black;
 }
