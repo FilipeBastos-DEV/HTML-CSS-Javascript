@@ -8,8 +8,8 @@
 
 /*Background*/
 html {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     font-size: 62,5%;
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -348,4 +348,45 @@ main{
     border: 5px solid black;
     background: white;
     color: black;
+}
+
+
+/* Versionamento Mobile*/
+.mobile-menu-icon{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+
+@media screen and (max-width: 730px){
+    .menu-content{
+        padding: 1.5rem 3rem;
+        justify-content: space-between;
+    }
+    .header-menu{
+        display: none;
+    }
+    .mobile-menu-icon{
+        display: block;
+    }
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .list-itens{
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .open{
+        display: block;
+    }
 }
