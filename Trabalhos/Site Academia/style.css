@@ -365,10 +365,13 @@ main{
         justify-content: space-between;
     }
     .header-menu{
+        padding: 1.5rem 3rem;
         display: none;
     }
     .mobile-menu-icon{
         display: block;
+        margin: 10px;
+        padding: 10px;
     }
     .mobile-menu-icon button{
         background-color: transparent;
@@ -384,7 +387,8 @@ main{
     }
     .mobile-menu .list-itens{
         display: block;
-        padding-top: 1.2rem;
+        padding: 2rem;
+        margin-top: 50px;
     }
     .open{
         display: block;
