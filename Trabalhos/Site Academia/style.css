@@ -17,10 +17,8 @@ html {
 
 body{
     background: linear-gradient(rgba(17,17,17,0.7),rgba(20,20,20,1)),url(img/img.jpg);
-    background-position: center center;
+    background-position: center;
     background-size: cover;
-    background-position-y: 0px;
-    background-repeat: no-repeat;
 }
 
 /*Menu - Header - Navibar*/
@@ -392,5 +390,19 @@ main{
     }
     .open{
         display: block;
+    }   
+    .primary-text{
+        width: 550px;
+        font-size: 1.8rem;
+        justify-content: space-between; 
     }
+    .second-text{
+        font-size: 1rem;
+    }
+    .btns button{
+        width: 180px;
+        height: 40px;
+        font-size: 10px;
+    }
+
 }
