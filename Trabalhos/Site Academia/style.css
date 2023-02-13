@@ -17,7 +17,7 @@ html {
 
 body{
     background: linear-gradient(rgba(17,17,17,0.7),rgba(20,20,20,1)),url(img/img.jpg);
-    background-position: center;
+    background-position: center center;
     background-size: cover;
 }
 
@@ -380,29 +380,32 @@ main{
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
     }
     .mobile-menu .list-itens{
         display: block;
-        padding: 2rem;
-        margin-top: 50px;
+        padding: 1rem 1rem;
+        margin-top: 100px;
     }
     .open{
         display: block;
     }   
     .primary-text{
-        width: 550px;
-        font-size: 1.8rem;
+        width: 350px;
+        font-size: 1.2rem;
         justify-content: space-between; 
     }
     .second-text{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .btns button{
-        width: 180px;
-        height: 40px;
-        font-size: 10px;
+        width: 150px;
+        height: 30px;
+        font-size: 8px;
     }
-
+    html{
+        overflow-x: hidden!important;
+    }
+    body{
+        overflow-x: hidden!important;
+    } 
 }
