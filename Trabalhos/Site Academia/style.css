@@ -357,19 +357,26 @@ main{
     display: none;
 }
 
+
 @media screen and (max-width: 730px){
     .menu-content{
         padding: 1.5rem 3rem;
         justify-content: space-between;
     }
+    .header-menu {
+        padding: 1.5rem 8rem;
+    }
+    .logo{
+        font-size: 0.5rem;
+        letter-spacing: 0.2rem;
+        padding: 0.1rem;
+    }
     .hidenlist{
-        padding: 1.5rem 3rem;
         display: none;
     }
     .mobile-menu-icon{
         display: block;
-        margin: 10px;
-        padding: 10px;
+        margin-left: -4rem;
     }
     .mobile-menu-icon button{
         background-color: transparent;
@@ -380,11 +387,13 @@ main{
         display: flex;
         flex-direction: column;
         text-align: center;
+        padding-bottom: 1rem;
     }
-    .mobile-menu .list-itensm{
+    .mobile-menu .list-itens{
         display: block;
-        padding: 1rem 1rem;
-        margin-top: 100px;
+        padding-top: 1.2rem;
+        margin-top: 10rem;
+        margin-left: -22rem;
     }
     .open{
         display: block;
