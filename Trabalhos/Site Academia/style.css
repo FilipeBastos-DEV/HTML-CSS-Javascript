@@ -374,6 +374,9 @@ main{
     .hidenlist{
         display: none;
     }
+    .menu-content .list-itens a {
+        padding: 0.1rem;
+    }
     .mobile-menu-icon{
         display: block;
         margin-left: 4rem;
