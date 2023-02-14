@@ -376,7 +376,7 @@ main{
     }
     .mobile-menu-icon{
         display: block;
-        margin-left: -4rem;
+        margin-left: 4rem;
     }
     .mobile-menu-icon button{
         background-color: transparent;
@@ -387,7 +387,8 @@ main{
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding-bottom: 1rem;
+
+        margin-right: 15rem;
     }
     .mobile-menu .list-itens{
         display: block;
