@@ -421,4 +421,44 @@ main{
     body{
         overflow-x: hidden!important;
     } 
+
+/*PLANOS*/
+    .planos{
+        width: 600px;
+    } 
+    .conteudo-planos{
+        width: 90%;
+        margin: 1.4rem;
+        margin-top: 8rem;
+    }
+
+/*Contato*/
+    .contato {
+      display: flex;
+      padding: 10px 45px;
+      width: 350px;
+      margin-top: 25rem;
+    }
+
+/*Obrigado*/
+.obrigado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+} 
+
+.obrigado h1{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.obrigado p{
+    color: white;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
 }
