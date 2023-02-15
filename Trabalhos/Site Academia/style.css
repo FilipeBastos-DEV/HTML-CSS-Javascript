@@ -231,6 +231,7 @@ main{
     font-size: 45px;
     color: white;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .obrigado p{
@@ -439,26 +440,4 @@ main{
       width: 350px;
       margin-top: 25rem;
     }
-
-/*Obrigado*/
-.obrigado{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    flex-direction: column;
-} 
-
-.obrigado h1{
-    font-size: 45px;
-    color: white;
-    margin-bottom: 30px;
-}
-
-.obrigado p{
-    color: white;
-    margin-bottom: 50px;
-    text-transform: uppercase;
-}
-
 }
