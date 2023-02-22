@@ -14,8 +14,9 @@ body{
 }
 
 #calc{
+    position: absolute;
+    top: 25%;
     width: 400px;
-    margin-top: 5rem;
     padding: 0.5rem;
     background-color: aliceblue;
     color: black;
@@ -25,7 +26,7 @@ body{
 }
 
 #calc h3{
-    font-size: 0.8rem;
+    font-size: 2rem;
     font-weight: 300px;
     color: black;
     text-align: center;
@@ -39,11 +40,11 @@ body{
     color: rgb(161, 161, 161);
     padding: 0.2rem;
     overflow-wrap: break-word;
-    min-height: 1.6rem;
+    min-height: 2rem;
 }
 
 #current-operation{
-    min-height: 1.6rem;
+    min-height: 4rem;
     font-size: 3rem;
     font-weight: 600;
     padding: 0.2rem;
@@ -74,10 +75,27 @@ body{
     border-color: rgb(220, 220, 220);
 } 
 
+#buttons-container .op{
+    background-color: rgb(96, 199, 250);
+}
+
+#buttons-container .op:hover{
+    background-color: rgb(96, 180, 250);
+}
+
 #buttons-container #equal-btn{
     grid-column: span 2;
     background-color: rgb(0, 204, 102);
 }
+
 #buttons-container #equal-btn:hover{
-    background-color: rgb(0, 183, 92);
+    background-color: rgb(0, 214, 107);
+}
+
+#buttons-container .op-bnt{
+    background-color: rgb(255, 80, 80);
+}
+
+#buttons-container .op-bnt:hover{
+    background-color: rgb(255, 70, 80);
 }
