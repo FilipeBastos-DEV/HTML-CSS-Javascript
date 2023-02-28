@@ -4,28 +4,38 @@
     font-family: Georgia, sans-serif;
 }
 
+body{
+    background: url(img/img.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 h1{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 32vh;
     text-transform: uppercase;
+    color: white;
+    border: 1px solid black;
 }
 
 p{
-    height: 85vh;
+    height: 16vh;
     font-size: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 main{
-    margin-top: -13rem;
+    margin-top: 2.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 main button{
+    padding: .5rem;
     border-radius: 15px;
     cursor: pointer;
     width: 200px;
